@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE574C31DDE91C000D658EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE574C21DDE91C000D658EA /* main.m */; };
+		3CE574C61DDE91C000D658EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE574C51DDE91C000D658EA /* AppDelegate.m */; };
+		3CE574C91DDE91C000D658EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE574C81DDE91C000D658EA /* ViewController.m */; };
+		3CE574CC1DDE91C000D658EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE574CA1DDE91C000D658EA /* Main.storyboard */; };
+		3CE574CE1DDE91C000D658EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE574CD1DDE91C000D658EA /* Assets.xcassets */; };
+		3CE574D11DDE91C000D658EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE574CF1DDE91C000D658EA /* LaunchScreen.storyboard */; };
+		3CE574DA1DDE91CF00D658EA /* YOPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE574D91DDE91CF00D658EA /* YOPlayManager.m */; };
+		3CE574DD1DDE920C00D658EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE574DC1DDE920C00D658EA /* AVFoundation.framework */; };
+		3CE574DF1DDE922800D658EA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE574DE1DDE922800D658EA /* MediaPlayer.framework */; };
+		3CE574E21DDE9CE200D658EA /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE574E11DDE9CE200D658EA /* PlayViewController.m */; };
+		3CE574E71DDEC79300D658EA /* TracksViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE574E61DDEC79300D658EA /* TracksViewModel.m */; };
+		3CE574ED1DDEDEA900D658EA /* NSString+FYString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE574EC1DDEDEA900D658EA /* NSString+FYString.m */; };
+		3CE574F01DDEE1C100D658EA /* FMPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE574EF1DDEE1C100D658EA /* FMPlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CE574BE1DDE91C000D658EA /* YOPlayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOPlayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE574C21DDE91C000D658EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CE574C41DDE91C000D658EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CE574C51DDE91C000D658EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CE574C71DDE91C000D658EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CE574C81DDE91C000D658EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CE574CB1DDE91C000D658EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CE574CD1DDE91C000D658EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE574D01DDE91C000D658EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CE574D21DDE91C000D658EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE574D81DDE91CF00D658EA /* YOPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOPlayManager.h; sourceTree = "<group>"; };
+		3CE574D91DDE91CF00D658EA /* YOPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOPlayManager.m; sourceTree = "<group>"; };
+		3CE574DC1DDE920C00D658EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3CE574DE1DDE922800D658EA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3CE574E01DDE9CE200D658EA /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		3CE574E11DDE9CE200D658EA /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		3CE574E51DDEC79300D658EA /* TracksViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksViewModel.h; sourceTree = "<group>"; };
+		3CE574E61DDEC79300D658EA /* TracksViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksViewModel.m; sourceTree = "<group>"; };
+		3CE574E81DDEDCD600D658EA /* YOPlayDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YOPlayDemo.entitlements; sourceTree = "<group>"; };
+		3CE574EB1DDEDEA900D658EA /* NSString+FYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FYString.h"; sourceTree = "<group>"; };
+		3CE574EC1DDEDEA900D658EA /* NSString+FYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FYString.m"; sourceTree = "<group>"; };
+		3CE574EE1DDEE1C100D658EA /* FMPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMPlayViewController.h; sourceTree = "<group>"; };
+		3CE574EF1DDEE1C100D658EA /* FMPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMPlayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CE574BB1DDE91C000D658EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE574DF1DDE922800D658EA /* MediaPlayer.framework in Frameworks */,
+				3CE574DD1DDE920C00D658EA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE574B51DDE91C000D658EA = {
+			isa = PBXGroup;
+			children = (
+				3CE574C01DDE91C000D658EA /* YOPlayDemo */,
+				3CE574BF1DDE91C000D658EA /* Products */,
+				3CE574DB1DDE920C00D658EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CE574BF1DDE91C000D658EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE574BE1DDE91C000D658EA /* YOPlayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE574C01DDE91C000D658EA /* YOPlayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3CE574EB1DDEDEA900D658EA /* NSString+FYString.h */,
+				3CE574EC1DDEDEA900D658EA /* NSString+FYString.m */,
+				3CE574E81DDEDCD600D658EA /* YOPlayDemo.entitlements */,
+				3CE574C41DDE91C000D658EA /* AppDelegate.h */,
+				3CE574C51DDE91C000D658EA /* AppDelegate.m */,
+				3CE574C71DDE91C000D658EA /* ViewController.h */,
+				3CE574C81DDE91C000D658EA /* ViewController.m */,
+				3CE574CA1DDE91C000D658EA /* Main.storyboard */,
+				3CE574CD1DDE91C000D658EA /* Assets.xcassets */,
+				3CE574CF1DDE91C000D658EA /* LaunchScreen.storyboard */,
+				3CE574D21DDE91C000D658EA /* Info.plist */,
+				3CE574C11DDE91C000D658EA /* Supporting Files */,
+				3CE574D81DDE91CF00D658EA /* YOPlayManager.h */,
+				3CE574D91DDE91CF00D658EA /* YOPlayManager.m */,
+				3CE574E01DDE9CE200D658EA /* PlayViewController.h */,
+				3CE574E11DDE9CE200D658EA /* PlayViewController.m */,
+				3CE574E51DDEC79300D658EA /* TracksViewModel.h */,
+				3CE574E61DDEC79300D658EA /* TracksViewModel.m */,
+				3CE574EE1DDEE1C100D658EA /* FMPlayViewController.h */,
+				3CE574EF1DDEE1C100D658EA /* FMPlayViewController.m */,
+			);
+			path = YOPlayDemo;
+			sourceTree = "<group>";
+		};
+		3CE574C11DDE91C000D658EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CE574C21DDE91C000D658EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CE574DB1DDE920C00D658EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE574DE1DDE922800D658EA /* MediaPlayer.framework */,
+				3CE574DC1DDE920C00D658EA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CE574BD1DDE91C000D658EA /* YOPlayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE574D51DDE91C000D658EA /* Build configuration list for PBXNativeTarget "YOPlayDemo" */;
+			buildPhases = (
+				3CE574BA1DDE91C000D658EA /* Sources */,
+				3CE574BB1DDE91C000D658EA /* Frameworks */,
+				3CE574BC1DDE91C000D658EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOPlayDemo;
+			productName = YOPlayDemo;
+			productReference = 3CE574BE1DDE91C000D658EA /* YOPlayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CE574B61DDE91C000D658EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = IAN;
+				TargetAttributes = {
+					3CE574BD1DDE91C000D658EA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P66FLL7BA2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3CE574B91DDE91C000D658EA /* Build configuration list for PBXProject "YOPlayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CE574B51DDE91C000D658EA;
+			productRefGroup = 3CE574BF1DDE91C000D658EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CE574BD1DDE91C000D658EA /* YOPlayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE574BC1DDE91C000D658EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE574D11DDE91C000D658EA /* LaunchScreen.storyboard in Resources */,
+				3CE574CE1DDE91C000D658EA /* Assets.xcassets in Resources */,
+				3CE574CC1DDE91C000D658EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE574BA1DDE91C000D658EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE574C91DDE91C000D658EA /* ViewController.m in Sources */,
+				3CE574F01DDEE1C100D658EA /* FMPlayViewController.m in Sources */,
+				3CE574C61DDE91C000D658EA /* AppDelegate.m in Sources */,
+				3CE574ED1DDEDEA900D658EA /* NSString+FYString.m in Sources */,
+				3CE574E71DDEC79300D658EA /* TracksViewModel.m in Sources */,
+				3CE574C31DDE91C000D658EA /* main.m in Sources */,
+				3CE574E21DDE9CE200D658EA /* PlayViewController.m in Sources */,
+				3CE574DA1DDE91CF00D658EA /* YOPlayManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CE574CA1DDE91C000D658EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE574CB1DDE91C000D658EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CE574CF1DDE91C000D658EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE574D01DDE91C000D658EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CE574D31DDE91C000D658EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CE574D41DDE91C000D658EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CE574D61DDE91C000D658EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P66FLL7BA2;
+				INFOPLIST_FILE = YOPlayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kf.YOPlayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CE574D71DDE91C000D658EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P66FLL7BA2;
+				INFOPLIST_FILE = YOPlayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kf.YOPlayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CE574B91DDE91C000D658EA /* Build configuration list for PBXProject "YOPlayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE574D31DDE91C000D658EA /* Debug */,
+				3CE574D41DDE91C000D658EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE574D51DDE91C000D658EA /* Build configuration list for PBXNativeTarget "YOPlayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE574D61DDE91C000D658EA /* Debug */,
+				3CE574D71DDE91C000D658EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CE574B61DDE91C000D658EA /* Project object */;
+}
